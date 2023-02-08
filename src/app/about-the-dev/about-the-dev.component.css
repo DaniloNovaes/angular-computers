@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+
+
+.section-Title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #002d47;
+    font-family: "cinzel", serif;
+   
+}
+
+main {
+    margin-bottom: 10px;
+}
+
+
+.container-text{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 100px auto 0px auto; 
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+/* CARDS */
+
+#imgCards img{
+    width: 750px;
+}
+
+#img-Dev{
+
+    margin-left: -150px;
+    margin-top: 50px;
+    
+}
+
+
+.cards {
+    width: 30%;
+    max-width: 980px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    
+}
+
+.info{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#002d47;
+    text-align:center;
+}
+
+#name-dev{
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+#role-dev{
+    font-size: 30px;
+}
+
+#text-dev{
+    text-align: center;
+}
+
+.text--medium{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#002d47;
+    text-align:center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -4px #000000;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+    background-color: #F6B042;
+    height: 800px;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+}
+
+.image {
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 400px;
+}
+
+.image img{
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.content {
+    margin:20px;
+}
+
+.title{
+    margin-bottom:0px;
+}
+
+.btn-Github{
+    color: #002d47;
+    background-color: transparent;
+    border: none;
+}
+.btn-Linkedin{
+    color: #002d47;
+    background-color: transparent;
+    border: none;
+}
