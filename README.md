@@ -1,5 +1,5 @@
 <div align = "center">
-  <h1> ProWay Computers </h1>
+  <h1> Angular Computers </h1>
 </div>
 <br>
 
